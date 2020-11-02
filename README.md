@@ -1,8 +1,3 @@
-# Why Python
-## Pycharm
-## python 3.8
-## Python variable
-
 - What is a variable
 - Dynamically typed language
 - Overwriting variables
