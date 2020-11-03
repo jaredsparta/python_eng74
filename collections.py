@@ -13,4 +13,15 @@ task1.remove(2) # removes the first instanceof 2
 task1.insert(2, "bread") # inserts bread at index 2
 task1[4] = "beans" # changes index 4
 
+print(type(task1[0]))
+print(type(task1[1]))
+print(type(task1[2]))
+print(type(task1[3]))
+print(type(task1[4]))
+print(type(task1[5]))
+print(type(task1[6]))
+print(type(task1[7]))
+
+
+
 print(task1[::-1]) # prints out list in reverse
