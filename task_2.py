@@ -19,4 +19,8 @@ values["EDUCATION"] = educ
 values["COURSE"] = course
 values["HOBBIES"] = hobbies
 
+print("")
+for key in values.keys():
+    print(key, ":", values[key])
+
 print(values["HOBBIES"][::-1])
