@@ -22,6 +22,11 @@ print(type(task1[5]))
 print(type(task1[6]))
 print(type(task1[7]))
 
-
-
 print(task1[::-1]) # prints out list in reverse
+
+
+# tuples
+
+tuple = "apple", "bananas", "supermalt"
+# tuple[0] = "cereal" -- tuples are immutable hence cant be changed, this line will throw an error
+print(tuple)

@@ -15,6 +15,7 @@
     # slice the list to get values
     print(list[1])
 
-    # 
+    # replace values, this replaces the index 0 with "milk"
+    list[0] = "milk"
 
 ```
