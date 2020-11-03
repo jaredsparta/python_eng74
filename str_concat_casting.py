@@ -20,5 +20,5 @@ dob = input("What's your date of birth? ")
 post_code = input("What is your postcode? ")
 address_firstline = input("What is your door number? ")
 
-print(f"\nHello {name}, you are /{} {age} years old and were born on {dob}.")
+print(f"\nHello {name}, you are {age} years old and were born on {dob}.")
 print(f"You live at door {address_firstline} in post code {post_code}.\n")
