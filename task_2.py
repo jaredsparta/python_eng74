@@ -24,3 +24,9 @@ for key in values.keys():
     print(key, ":", type(values[key]))
 
 print(values["HOBBIES"][::-1])
+
+values["HOBBIES"].append("jumping"))
+print(values["HOBBIES"])
+
+values["HOBBIES"].remove("jumping")
+print(values["HOBBIES"])
