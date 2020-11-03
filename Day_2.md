@@ -45,4 +45,13 @@
     dictionary["name"] # returns the value of the key "name"
 ```
 
+**Sets**
+```python
+    # Sets use {}
+    # They are unindexed and unordered
+    # To access, you can print with a for loop or you can test whether it has a specific value using in
+    set = {"apple", "banana", "bread"}
 
+    print(set) # Printing a set will pick a random order of the values and print them
+    print(bool("apple" in set)) # Returns True because "apple" is in the set
+```
