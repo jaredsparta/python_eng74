@@ -11,5 +11,6 @@ task1 = ["apple", "hash browns", 1, 2, 5, 1+6j, ["bananas"]]
 task1.append("milk") #adds milk at the end
 task1.remove(2) # removes the first instanceof 2
 task1.insert(2, "bread") # inserts bread at index 2
+task1[4] = "beans" # changes index 4
 
 print(task1[::-1]) # prints out list in reverse
