@@ -55,3 +55,31 @@
     print(set) # Printing a set will pick a random order of the values and print them
     print(bool("apple" in set)) # Returns True because "apple" is in the set
 ```
+
+# Control Flow
+
+**if, elif and else**
+```python
+    # these check a condition and if true, it will run that corresponding code
+    if <condition>:
+        <code>
+    elif <condition>:
+        <code>
+    else:
+        <code>    
+```
+
+**loops**
+```python
+    # break makes you escape the loop
+    for <name> in <iterable>:
+        <code>
+        if <condition>:
+            break
+
+    # continue escapes that loop and goes to the next one
+    for <name> in <iterable>:
+        <code>
+        if <condition>:
+            continue
+```
