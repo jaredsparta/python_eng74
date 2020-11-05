@@ -32,3 +32,6 @@ while user_prompt:
 
 print(f"You are {age} years old")
 ```
+
+# Functions
+- This was done in another repo: [functions](https://github.com/jaredsparta/python_functions)
